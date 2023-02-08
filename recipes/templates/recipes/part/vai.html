@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'recipes/partials/head.html' %}
+
+<body>
+  {% include 'recipes/partials/header.html' %}
+  <main class="main-content-container">
+    <div class="main-content main-content-list container">
+      <div class="container">
+        <div id="content">
+          <div class="card-title">
+            <h1 class="title">Hambúrguer Simples</h1>
+            <!-- <hr class="hr"> -->
+            <span class="datatemp">
+              <i></i>
+              16/01/2023 às 10:15
+            </span>
+          </div>
+          <div id="conteiner">
+            <div id="sidebar">
+              <div class="recipe-cover">
+                <img class="imgv"
+                  src="https://cursodohamburguerperfeito.com.br/wp-content/uploads/2021/08/Burger-280931852.png" />
+              </div>
+              <div class="card">
+                <div>
+
+                  <h3 class="infotemp">Informações do autor da receita</h3>
+                  <hr>
+                  <li><b>Nome:</b> Fabiana Souza</li>
+                  <li><b>Profissão:</b> Empreendedora</li>
+                  <li><b>Email:</b> fabiana@souza.com.br</li>
+                  <li><b>Facebook:</b> <a target="_blank" href="https://www.instagram.com/byanna_13/">Fabiana
+                      Souza</a></li>
+                  <li><b>Instagram:</b> <a target="_blank" href="https://www.instagram.com/byanna_13/">@byanna_13</a>
+                  </li>
+
+                </div>
+              </div>
+            </div>
+            <div class="card cardtemp">
+              <div class="">
+                <h3>Ingredientes</h3>
+                <hr>
+                <li>pão </li>
+                <li>pão</li>
+                <li>pão</li>
+                <li>pão</li>
+                <li>pão</li>
+                <br>
+                <br>
+                <h3>Modo de Preparo</h3>
+                <hr>
+                <li>Passo 1: Coloque o pão no pão.</li>
+                <li>Passo 2: Coloque o pão no pão / Coloque o pão no pão/ Coloque o pão no pão.</li>
+                <li>Passo 3: Coloque o pão no pão / Coloque o pão no pão/ Coloque o pão no pão.</li>
+                <li>Passo 4: Já está pronto!</li>
+                <li>Passo 5: Na hora de servir, Coloque o pão no pão / Coloque o pão no pão/ Coloque o pão no pão
+                  Coloque o pão no pão / Coloque o pão no pão/ Coloque o pão no pão.Coloque o pão no pão /
+                  Coloque o pão no pão/ Coloque o pão no pão</li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h4>Coma o seu pão com pão com pão!</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <ul>
+                <h3>Patrocinadores e criadores do site</h3>
+                <hr>
+                <center>
+                  <div>
+                    <div>
+                      Fabiana Souza. <a target="_blank" href="https://www.instagram.com/byanna_13/">Fabiana
+                        Souza</a>
+                    </div>
+                    <div>
+                      Fabiana Souza. <a target="_blank" href="https://www.instagram.com/byanna_13/">Fabiana
+                        Souza</a>
+                    </div>
+                  </div>
+                </center>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+    <br>
+    <footer class="recipe-footer">
+      <a class="recipe-read-more button button-dark button-full-width" href="{% url 'home' %}">
+        <span>Voltar</span>
+      </a>
+    </footer>
+  </main>
+</body>
+
+</html>

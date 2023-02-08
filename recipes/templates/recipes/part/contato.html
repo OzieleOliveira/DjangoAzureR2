@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'recipes/partials/head.html' %}
+
+<body>
+    {% include 'recipes/partials/header.html' %}
+    <!-- • Imagem da autor da receita
+    • Nome
+    • Telefone
+    • Contato Whats App
+    • Contato de email
+    • Formação academica (Algum curso de gastronomia ou se cozinhar é apenas
+    um hobby)
+    • Especialidades (Qual o tipo de gastronomia que o autor é especialista, tipo:
+    massas, comida japonesa, etc.)
+    • Redes sociais -->
+    <main class="main-content-container">
+        <div class="main-content main-content-list container">
+            <div class="container">
+                <div id="content">
+                    <div class="card-title">
+                        <h1 class="title">CONTATOS DO AUTOR</h1>
+                    </div>
+                    <div id="conteiner">
+                        <div id="sidebar">
+                            <div class="recipe-cover">
+                                <img class="imgv" src="https://www.olharconceito.com.br/imgsite/noticias/selfie1.png" />
+                            </div>
+                            <div class="card">
+                                <div>
+                                    <h3 class="infotemp">Informações do autor</h3>
+                                    <hr>
+                                    <li><b>Nome:</b> Joaquin Pereira Gos</li>
+                                    <li><b>Profissão:</b>Gostonomo</li>
+                                   
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cardtemp">
+                            <div class="card-title">
+                                <h2 class="title">Joaquin Pereira Gos</h2>
+                            </div>
+                            <div class="">
+                                <h3>Contatos</h3>
+                                <hr>
+                                <li><b>WhatsApp</b> (84) 9 9999-9999</li>
+                                <li><b>Email:</b> joaquin@pereira_gos.com.br</li>
+                                <li><b>Facebook:</b> <a target="_blank"
+                                        href="https://www.instagram.com/byanna_13/"> Joaquin Pereira Gos</a></li>
+                                <li><b>Instagram:</b> <a target="_blank"
+                                        href="https://www.instagram.com/byanna_13/">@byanna_13</a>
+                                </li>
+                                <br>
+                                <br>
+                                <h3>Formação</h3>
+                                <hr>
+                                <li>Curso 1: Pós graduação em Gastronomia - UFRN.</li>
+                                <li>Curso 2: Graduação em Gastronomia - UERN.</li>
+                                <li>Curso 3: Formação Tecnica em Gastronomia - USP.</li>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <center>
+                                    <h4>O futuro chega cedo!</h4>
+                                </center>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <footer class="recipe-footer">
+            <a class="recipe-read-more button button-dark button-full-width" href="{% url 'home' %}">
+                <span>Voltar</span>
+            </a>
+        </footer>
+    </main>
+</body>
+
+</html>
